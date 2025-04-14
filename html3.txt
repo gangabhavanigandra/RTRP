@@ -1,0 +1,61 @@
+Here’s a simple horizontal navigation bar design using HTML and CSS that works well on phones:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phone-Friendly NavBar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+      display: block;
+    }
+    .navbar a:hover {
+      background-color: #575757;
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 600px) {
+      .navbar {
+        flex-wrap: wrap;
+      }
+      .navbar a {
+        flex: 1 1 50%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+
+</body>
+</html>
+
+Key points:
+
+It's responsive thanks to flex-wrap in the media query.
+
+On small screens, links stack in two columns if needed.
+
+
+Want to add a dropdown menu or hamburger menu next?

@@ -1,0 +1,64 @@
+Here’s a mobile-friendly form with input fields for name, email, and a submit button, styled with padding and borders:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .form-container input[type="text"],
+    .form-container input[type="email"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .form-container input[type="submit"] {
+      width: 100%;
+      background-color: #28a745;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .form-container input[type="submit"]:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email" required>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</body>
+</html>
+
+This form is optimized for phones with a clean layout, spacing, and responsive design. Want to include more fields or validations next?

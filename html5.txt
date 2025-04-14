@@ -1,0 +1,46 @@
+To make a list (ul/li) appear horizontally for phones, you can use Flexbox. Here's a simple example:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    ul.horizontal-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      background-color: #f0f0f0;
+      border-radius: 8px;
+    }
+    ul.horizontal-list li {
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: white;
+      margin: 5px;
+      border-radius: 6px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <ul class="horizontal-list">
+    <li>Home</li>
+    <li>About</li>
+    <li>Services</li>
+    <li>Contact</li>
+  </ul>
+
+</body>
+</html>
+
+This layout is touch-friendly and adjusts nicely on phone screens. You can tweak the padding, colors, or add hover effects if you'd like! Want it to behave like a nav menu?

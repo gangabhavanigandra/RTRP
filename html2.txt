@@ -1,0 +1,37 @@
+To center a <div> both vertically and horizontally on a phone (or any screen), you can use Flexbox. Here's an example of HTML and CSS that does this:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Centered Div</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+    .center-box {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="center-box">
+    <h2>Hello!</h2>
+    <p>This box is centered on the screen.</p>
+  </div>
+</body>
+</html>
+
+This layout works perfectly on phones and adjusts to screen sizes due to the viewport meta tag. Let me know if you'd like to add animations or responsive design tweaks!
