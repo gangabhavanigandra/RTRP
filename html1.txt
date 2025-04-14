@@ -1,0 +1,23 @@
+Sure! Here's a simple HTML webpage that includes a heading, a paragraph, and a phone number (clickable on mobile devices):
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contact Us</h1>
+  <p>If you have any questions, feel free to reach out!</p>
+  <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+</body>
+</html>
+
+This code displays a heading, a short paragraph, and a phone number link that will prompt a call when clicked on supported devices (like phones). Want to style it more or add other elements?
